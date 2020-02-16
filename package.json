@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-fanyi-api-sign",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get baidu translate api sign.",
   "homepage": "https://github.com/afeiship/next-fanyi-api-sign",
   "author": {
@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@feizheng/gulp-pkg-header": "^1.0.2",
-    "@feizheng/next-param": "^1.1.0",
+    "@feizheng/next-param": "^1.1.1",
     "@feizheng/rake-git": "^1.2.1",
     "del": "^5.1.0",
     "express": "^4.17.1",
@@ -36,7 +36,7 @@
     "node-fetch": "^2.6.0"
   },
   "dependencies": {
-    "@feizheng/next-js-core2": "^2.4.0",
+    "@feizheng/next-js-core2": "^2.4.1",
     "md5": "^2.2.1"
   },
   "publishConfig": {
