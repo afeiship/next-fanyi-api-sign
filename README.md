@@ -1,16 +1,14 @@
 # next-fanyi-api-sign
 > Get baidu translate api sign.
 
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
+
 ## installation
 ```bash
-npm install -S @feizheng/next-fanyi-api-sign
-```
-
-## usage
-```js
-import '@feizheng/next-fanyi-api-sign';
-
-//DOCS here!
+npm install -S @jswork/next-fanyi-api-sign
 ```
 
 ## descriptions
@@ -26,3 +24,18 @@ import '@feizheng/next-fanyi-api-sign';
 
 ## resources
 - https://api.fanyi.baidu.com/doc/21
+
+## license
+Code released under [the MIT license](https://github.com/afeiship/next-fanyi-api-sign/blob/master/LICENSE.txt).
+
+[version-image]: https://img.shields.io/npm/v/@jswork/next-fanyi-api-sign
+[version-url]: https://npmjs.org/package/@jswork/next-fanyi-api-sign
+
+[license-image]: https://img.shields.io/npm/l/@jswork/next-fanyi-api-sign
+[license-url]: https://github.com/afeiship/next-fanyi-api-sign/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-fanyi-api-sign
+[size-url]: https://github.com/afeiship/next-fanyi-api-sign/blob/master/dist/next-fanyi-api-sign.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-fanyi-api-sign
+[download-url]: https://www.npmjs.com/package/@jswork/next-fanyi-api-sign

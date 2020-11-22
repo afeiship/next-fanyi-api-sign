@@ -1,6 +1,15 @@
-(function() {
+/*!
+ * name: @jswork/next-fanyi-api-sign
+ * description: Get baidu translate api sign.
+ * homepage: https://github.com/afeiship/next-fanyi-api-sign
+ * version: 1.0.0
+ * date: 2020-11-22 17:25:24
+ * license: MIT
+ */
+
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var md5 = require('md5');
   var DEFAULT_OPTIONS = {
     q: 'apple',
@@ -9,7 +18,7 @@
     secret: '_m5Ircd6tovvjicHKyMh'
   };
 
-  nx.fanyiApiSign = function(inOptions) {
+  nx.fanyiApiSign = function (inOptions) {
     var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
     var q = options.q;
     var salt = options.salt;
