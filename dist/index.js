@@ -3,7 +3,7 @@
  * description: Get baidu translate api sign.
  * homepage: https://github.com/afeiship/next-fanyi-api-sign
  * version: 1.0.0
- * date: 2020-11-22 17:25:24
+ * date: 2020-11-22 17:46:22
  * license: MIT
  */
 
