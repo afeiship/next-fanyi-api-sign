@@ -11,6 +11,23 @@
 npm install -S @jswork/next-fanyi-api-sign
 ```
 
+## usage
+```js
+const options = { q: 'pear' };
+const res = nx.fanyiApiSign(options);
+const url = `http://api.fanyi.baidu.com/api/trans/vip/translate?from=en&to=zh&${nx.param(res)}`;
+
+fetch(url)
+  .then((response) => response.json())
+  .then((response) => {
+    expect(response).toEqual({
+      from: 'en',
+      to: 'zh',
+      trans_result: [{ src: 'pear', dst: '梨' }]
+    });
+  });
+```
+
 ## descriptions
 1. 拼接字符串1
    1. appid=2015063000000001
